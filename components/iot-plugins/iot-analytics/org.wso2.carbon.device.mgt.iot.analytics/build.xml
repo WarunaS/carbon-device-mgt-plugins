@@ -36,9 +36,9 @@
     <property name="Wordcounter_dir" value="WordCount"/>
     <property name="Temperature_dir" value="Temperature"/>
 
-<!--target name="clean">
-        <delete dir="${target-dir}" />
-</target-->
+<target name="clean">
+        <!--delete dir="${target-dir}" /-->
+</target>
 
     <target name="zip" depends="clean">
         <mkdir dir="${target-dir}"/>

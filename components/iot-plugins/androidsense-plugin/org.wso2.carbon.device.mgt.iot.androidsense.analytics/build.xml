@@ -25,9 +25,9 @@
 
     <property name="Android_Sense_dir" value="Android_Sense"/>
 
-    <!--target name="clean">
-        <delete dir="${target-dir}" />
-    </target-->
+    <target name="clean">
+        <!--delete dir="${target-dir}" /-->
+    </target>
 
     <target name="zip" depends="clean">
         <mkdir dir="${target-dir}"/>
